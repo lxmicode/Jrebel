@@ -2,10 +2,8 @@ version: "3"
 
 services:
   springboot:
-    build:
-      context: ./
-      dockerfile: Dockerfile
-    image: lianshufeng/jrebel
+   
+    image: jrebel:arm64
     environment:
       licenseUrl: 42.193.18.168:8088
     ports:
